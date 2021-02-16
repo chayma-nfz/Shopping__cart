@@ -1,0 +1,56 @@
+
+
+body {
+    background-color: #f6f5f5;
+  }
+
+
+
+#site-header {
+	background: #fff;
+  }
+  
+  #site-header {
+	margin: 0 0 30px 0;
+  }
+  
+  
+ 
+  
+#site-header h1 {
+
+	font-style: oblique;
+	font-size: 31px;
+	font-weight: 300;
+	padding: 40px 0;
+	position:relative;
+	margin: 0;
+  }
+  
+ 
+  .container {
+   display: flex;
+     justify-content: space-between;
+	font-family: 'Open Sans', sans-serif;
+	
+  }
+
+.cart-qty-plus,
+.cart-qty-minus{
+	width: 38px;
+	height: 38px;
+	background-color: #fff;
+	border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.cart-qty-plus:hover,
+.cart-qty-minus:hover{
+	background-color: #5161ce;
+	color: #fff;
+}
+
+.myList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
